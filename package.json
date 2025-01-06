@@ -34,6 +34,10 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/mkcert.mjs",
       "require": "./dist/mkcert.js"
+    },
+    "./plugin/*": {
+      "import": "./plugin/*.ts",
+      "require": "./plugin/*.ts"
     }
   },
   "scripts": {
